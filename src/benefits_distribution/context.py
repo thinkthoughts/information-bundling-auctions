@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from dataclasses import dataclass
-from typing import Tuple
 
 
-@dataclass
+@dataclass(frozen=True)
 class RepositoryContext:
+    """Repository-specific source object for Notebook 00 artifacts."""
 
     repository: str
     repository_description: str
@@ -12,18 +14,18 @@ class RepositoryContext:
     engineering_statement: str
 
     grammar_title: str
-    grammar: Tuple[str, ...]
+    grammar: tuple[str, ...]
 
     constraint: str
     connected_lane: str
 
-    engineering_objects: Tuple[str, ...]
-    engineering_variables: Tuple[str, ...]
-    observable_states: Tuple[str, ...]
-    indicators: Tuple[str, ...]
+    engineering_objects: tuple[str, ...]
+    engineering_variables: tuple[str, ...]
+    observable_states: tuple[str, ...]
+    indicators: tuple[str, ...]
 
-    lane_symbols: Tuple[str, ...]
-    lane_labels: Tuple[str, ...]
+    lane_symbols: tuple[str, ...]
+    lane_labels: tuple[str, ...]
 
     repository_variable_title: str
     lane_caption: str
@@ -31,11 +33,11 @@ class RepositoryContext:
     repository_sequence_title: str
     repository_sequence_caption: str
 
-    construction_sequence: Tuple[str, ...]
+    construction_sequence: tuple[str, ...]
 
     design_principle: str
 
     next_notebook: str
 
-    source: str
-    notes: str
+    source: str = ""
+    notes: str = ""
