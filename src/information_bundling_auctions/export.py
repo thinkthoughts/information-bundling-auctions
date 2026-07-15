@@ -103,7 +103,7 @@ def finalize_notebook(
         "00_engineering_context.ipynb"
     ),
     zip_name: str = (
-        "benefits-distribution-"
+        "information-bundling-auctions-"
         "00-engineering-context-outputs.zip"
     ),
     folders: tuple[str, ...] = (

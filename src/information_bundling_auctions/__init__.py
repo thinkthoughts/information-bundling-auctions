@@ -1,5 +1,5 @@
 """
-Reusable infrastructure for benefits-distribution notebooks.
+Reusable infrastructure for information-bundling-auctions notebooks.
 """
 
 from .context import RepositoryContext
