@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "information-bundling-auctions"
 version = "0.1.0"
-description = "Benefit distribution as an engineering variable for sustainable development."
+description = "Information bundling as an engineering variable for allocation efficiency."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
