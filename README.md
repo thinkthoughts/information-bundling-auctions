@@ -1,18 +1,18 @@
-# Benefits Distribution
+# Information Bundling Auctions
 
-This repository specifies information bundling as an engineering variable for allocation efficiency.
+This repository specifies **information constraints** as an engineering variable for allocation efficiency.
 
-It develops a connected engineering specification for modeling, measuring, and improving information bundling.
+It develops a connected engineering specification for understanding how information acquisition, information disclosure, and auction design interact to improve allocation efficiency in Information-Bundling Position Auctions (IBPA).
 
 ## Engineering statement
 
-> **Information Bundling Specifies Sustainable Development**
+> **Information Constraints Specify Allocation Efficiency**
 
-<img src="figures/information-bundling-auctions-repo.png" />
+<img src="figures/2601-09541.png" alt="Information Constraints Specify Allocation Efficiency" />
 
 ## Engineering grammar
 
-```
+```text
 Constraint
 ↓
 Connected lanes
@@ -28,7 +28,7 @@ Indicators
 
 ## Repository construction
 
-```
+```text
 00  Engineering Context
 01  Constraints
 07  Connected Lanes
@@ -42,14 +42,25 @@ Indicators
 43  Benchmarks
 ```
 
-Each notebook specifies one connected stage of repository development.
+Each notebook develops one connected stage of the engineering specification.
 
 ## Repository outputs
 
-- reusable engineering notebooks
-- repository context figures
-- machine-readable engineering specifications
-- reusable Python package
-- engineering benchmarks and examples
+* reusable engineering notebooks
+* repository context figures
+* machine-readable engineering specifications
+* reusable Python package
+* engineering demonstrations and benchmarks
 
-The repository is designed so that future engineering repositories reuse the same specification grammar while specializing only the engineering context and connected lanes for a new domain.
+## Engineering focus
+
+This repository interprets **Targeting Information in Ad Auction Mechanisms** (arXiv:2601.09541) through a reusable engineering specification.
+
+The central engineering variable separates two independent design levers:
+
+* **Publisher information granularity** (information acquisition)
+* **Advertiser disclosure granularity** (information disclosure)
+
+The Information-Bundling Position Auction (IBPA) demonstrates how retaining granular publisher information while limiting advertiser disclosure can improve allocation efficiency, incentive compatibility, and overall welfare.
+
+The repository develops these engineering variables through connected notebooks, reusable figures, and machine-readable engineering context so the same Notebook 00 architecture can be reused across future engineering repositories while specializing only the engineering context, connected lanes, and engineering variables for a new domain.
