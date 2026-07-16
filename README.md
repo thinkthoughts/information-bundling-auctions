@@ -8,9 +8,9 @@ It develops a connected engineering specification for understanding how informat
 
 > **Information Constraints Specify Allocation Efficiency**
 
-<img src="figures/2601-09541.png" alt="Information Constraints Specify Allocation Efficiency" />
+<img src="figures/2601-09541-hero.png" alt="Information Constraints Specify Allocation Efficiency" />
 
-## Engineering grammar
+## Engineering 
 
 ```text
 Constraint
